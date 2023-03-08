@@ -57,7 +57,7 @@ In must languages, there are two types of numbers: integers and real. You must b
 are working with integers the operations are done with integers. E.g.
 ```
 10.0 + 10.0   <--- returns 20.0
-10 + 10       <--- returns 2
+10 + 10       <--- returns 20
 5.0 / 2       <--- returns 2.5
 5 / 2         <--- returns 2!!!
 ```
