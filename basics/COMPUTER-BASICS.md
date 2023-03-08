@@ -20,7 +20,7 @@ have files or more folders, that can have more files or folders, etc.
 Typically, we use forward slashes `/` or back slashes `\` to represent a this organization,
 and we call this "path".
 
-### Linux an Unix
+### Linux and Unix
 In Linux and Unix everything is directories and we use forward slashes. 
 For example, your user directory is located at 
 ```
