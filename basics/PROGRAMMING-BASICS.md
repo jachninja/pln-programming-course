@@ -80,10 +80,15 @@ In Python:
 x0 = 10
 _result = "We didn't start the fire"
 
-In JavaScript
+In Java and C++
 int x0 = 10; //Note that we added "int". In many languages, you need to specify
              //the variable type
 string _result = "This is a string";
+
+In JavaScript
+let x0 = 10; //Note that we don't specify the type, but we use "let" 
+const _result = "This is a string"; //if you know your value won't change, use const
+var anyVariable;  //using var is a bad idea. We'll look into why
 ```
 
 ### Order of operations
