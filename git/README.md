@@ -70,4 +70,6 @@ Git tries to keep things tidy. If you try to upload your changes but someone alr
 ## Notes:
 Git has more capabilities, and some of the explanations here are simplified versions. 
 We won't be using the advanced capabilities
+The first time you use git locally, it will refuse to push your changes until you configure your name
+and email. The instructions are in the error message
 

@@ -17,9 +17,10 @@ there are different operating systems for the computer. The most common nowadays
 ## The files in your computer are organized in folders
 Some call them directories, but the idea is the same: you have folders that can
 have files or more folders, that can have more files or folders, etc.
-Typically, we use forward slashes `/` or back slashes `\` to represent a path.
+Typically, we use forward slashes `/` or back slashes `\` to represent a this organization,
+and we call this "path".
 
-### Linux an Unix
+### Linux and Unix
 In Linux and Unix everything is directories and we use forward slashes. 
 For example, your user directory is located at 
 ```
@@ -29,6 +30,9 @@ and if you save a file there, its path would be
 ```
 /home/<your-username>/awesome_pic.jpg
 ```
+This means that there's a folder at top level named home, and inside of it another folder
+named as your user name (for example, /home/johndoe/) and iside of it there's a file named
+awesome_pic.jpg
 
 ### Windows
 In windows we use back slashes and there's the concept of **drive**, which originally was mapped to 
@@ -38,6 +42,8 @@ For example, your "documents" are probably stored at
 ```
 C:\Users\<your-username>\Documents
 ```
+This means that in the C: drive there's a folder named Users, and inside of it another folder
+named as your user name
 
 ## A programmer must know how to use a terminal
 If you're serious about programming, you must know how to do a few things in a terminal
